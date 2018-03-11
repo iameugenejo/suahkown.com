@@ -26,7 +26,7 @@
         line-height: 25px;
         margin-top: 75px;
         width: 100%;
-        background-color: #3b3b3b
+        background-color: #000;
     }
     .menu-wrapper header nav ul {
         display: none
@@ -75,7 +75,7 @@
 /*----------------------*/
 .dark-text,
 body {
-    color: #3b3b3b
+    color: #000;
 }
 
 .no-gutter>[class*=col],
@@ -222,7 +222,7 @@ hr {
 
 .heading-title h2 {
     font-size: 18px;
-    color: #3B3B3B;
+    color: #000;
     letter-spacing: 5px
 }
 
