@@ -1,0 +1,22 @@
+.hello {
+  width: 17vw;
+  padding-bottom: 58px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 15px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+}
+
+body {
+  padding-bottom: 15px;
+}
+
+@media (max-height:500px) {
+  .footer {
+    display: none;
+  }
+}

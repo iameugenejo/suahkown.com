@@ -1,0 +1,20 @@
+---
+menu: main
+layout: default
+scripts:
+  - isotope.pkgd.min.js
+  - masonary.min.js
+  - imagesloaded.min.js
+  - portfolio.js
+---
+        <div class="container">
+          <div class="hover-one no-gutter" id="grid">
+          {% for portfolio in site.portfolios %}
+          <div class="col-sm-6 col-xs-12 item {{ portfolio.tags | join: ' ' }}">
+                 <a href="{{ site.baseurl }}{{ portfolio.url }}">
+                     <img src="../images/portfolio/{{ portfolio.thumb }}" alt="" class="img-responsive">
+                 </a>
+              </div>
+          {% endfor %}
+          </div>
+        </div>

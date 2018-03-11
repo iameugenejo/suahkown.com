@@ -1,0 +1,59 @@
+---
+menu: portfolio
+layout: default
+title: Portfolio
+styles:
+  - portfolio.css
+---
+    <div class="page-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+        <div class="row detail">
+          <div class="col-xs-3 col-sm-2 col-md-1 f-bold">CLIENT</div>
+          <div class="col-xs-9 col-sm-10 col-md-11">{{ page.client }}</div>
+        </div>
+        <div class="row detail">
+          <div class="col-xs-3 col-sm-2 col-md-1 f-bold">AGENCY</div>
+          <div class="col-xs-9 col-sm-10 col-md-11">{{ page.agency }}</div>
+        </div>
+        <div class="row detail">
+          <div class="col-xs-3 col-sm-2 col-md-1 f-bold">ROLE</div>
+          <div class="col-xs-9 col-sm-10 col-md-11">{{ page.role }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          {% for image in page.images %}
+            <img class="portfolio-image img-responsive" src="../../images/portfolio/{{ image }}">
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigator virtical-center-container">
+      <div class="virtical-center">
+        <div class="arrows">
+          <a class="arrow left-arrow" href="{% if page.previous.url %}{{ page.previous.url }}{% else %}{{ site.portfolios.last.url }}{% endif %}"><div class="img"></div></a>
+          <a class="arrow right-arrow" href="{% if page.next.url %}{{ page.next.url }}{% else %}{{ site.portfolios.first.url }}{% endif %}"><div class="img"></div></a>
+        </div>
+      </div>
+    </div>

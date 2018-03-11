@@ -1,0 +1,15 @@
+---
+baseurl: ""
+collections:
+  portfolios:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: portfolios
+    values:
+      layout: portfolio
+      permalink: /portfolios/:title/
+sass:
+  sass_dir: _sass
+---

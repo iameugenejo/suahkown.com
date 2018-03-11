@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="SuahKwon.com">
+    <meta name="keywords" content="suah,suahkwon,portfolio,graphic,design,graphicdesign,advertisement">
+    <meta http-equiv="Cache-Control" content="public, max-age=600"/>
+    <title>SuahKwon.com{% if page.title %} - {{ page.title }} {% endif %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/font-awesome.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" media="all" />
+
+    <link href='{{ site.baseurl }}/css/font.css' rel='stylesheet' type='text/css'>
+    {% for style in layout.styles %}
+    <link href='{{ site.baseurl }}/css/{{ style }}' rel='stylesheet' type='text/css'>
+    {% endfor %}
+    {% for style in page.styles %}
+    <link href='{{ site.baseurl }}/css/{{ style }}' rel='stylesheet' type='text/css'>
+    {% endfor %}
+  </head>
+
+  <body>
+    <div class="menu-wrapper">
+      <div class="container">
+        <header>
+          <div class="logo">
+            <a href="{{ site.baseurl }}/">
+              <img src="{{ site.baseurl }}/images/logo.png" alt="">
+              <label>art direction&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;design</label>
+            </a>
+          </div>
+          <div class="mobile-menu">
+            <span class="line"></span>
+            
+            
+            <nav>
+              <ul>
+                <li{% if page.menu == "main" %} class="active"{% endif %}><a href="{{ site.baseurl }}/">portfolio</a></li>
+                <li{% if page.menu == "about" %} class="active"{% endif %}><a href="{{ site.baseurl }}/about.html">about</a></li>
+                <li{% if page.menu == "contact" %} class="active"{% endif %}><a href="https://www.linkedin.com/in/suahkwon/"><img src="{{ site.baseurl }}/images/linkedin.png" title="linkedin" style="padding-bottom:3px"></a></li>
+              </ul>
+            </nav>
+          </div>
+          <nav>
+            <ul>
+              <li{% if page.menu == "main" %} class="active"{% endif %}><a href="{{ site.baseurl }}/">portfolio</a></li>
+              <li{% if page.menu == "about" %} class="active"{% endif %}><a href="{{ site.baseurl }}/about.html">about</a></li>
+              <li{% if page.menu == "contact" %} class="active"{% endif %}><a href="https://www.linkedin.com/in/suahkwon/"><img src="{{ site.baseurl }}/images/linkedin.png" title="linkedin" style="padding-bottom:3px"></a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    
+    {{ content }}
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="copyright">
+              <p>Suah Kwon &copy; {{ 'now' | date: "%Y" }}. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/modernizr.custom.js"></script>
+    {% for script in layout.scripts %}
+    <script type="text/javascript" src="{{ site.baseurl }}/js/{{script}}"></script>
+    {% endfor %}
+    {% for script in page.scripts %}
+    <script type="text/javascript" src="{{ site.baseurl }}/js/{{script}}"></script>
+    {% endfor %}
+
+  </body>
+</html>
