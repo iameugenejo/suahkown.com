@@ -40,11 +40,4 @@ $(function() {
     onHashchange();
     $filters.show();
   });
-
-  // swipe navigation
-  $('body').on('swipeleft', function(e) {
-    window.location.href = $('.left-arrow').attr('href');
-  }).on('swiperight', function(e) {
-    window.location.href = $('.right-arrow').attr('href');
-  });
 });
