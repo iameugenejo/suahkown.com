@@ -9,5 +9,5 @@ images:
   - bird/FieldGuide_4.jpg
 client: BIRD Los Angeles
 agency: BIRD Los Angeles
-role: Lead Designer – concept development, editorial design & photo editing/retouching
+role: Lead Designer – concept development, editorial design & image manipulation/retouching
 ---
