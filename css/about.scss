@@ -1,0 +1,47 @@
+---
+---
+$theme_color: #1149b6;
+
+body {
+  padding-bottom: 15px;
+}
+
+label.hello {
+  padding-top: 80px;
+  font-family: Montserrat-Bold;
+  font-size: 110px;
+  color: $theme_color;
+  letter-spacing: -2px;
+}
+
+p {
+  font-size: 25px;
+  line-height: 32px;
+  padding-bottom: 10px;
+}
+
+.mailto {
+  text-decoration: underline;
+  &:link {
+    color: $theme_color;
+  }
+}
+
+.hello {
+  width: 17vw;
+  padding-bottom: 58px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 15px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+}
+
+@media (max-height:500px) {
+  .footer {
+    display: none;
+  }
+}
