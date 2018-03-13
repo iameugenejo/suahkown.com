@@ -3,8 +3,9 @@ $(function() {
 
   var $menu = $('#menu').on('click', function(e) {
     if($menu.hasClass('in')) {
-      $(this).removeClass('in');
+      $menu.removeClass('in');
       $body.removeClass('noscroll');
+      $menu.hide();
     }
   });
 
