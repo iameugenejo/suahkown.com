@@ -923,10 +923,11 @@ textarea:focus {
     }
     .menu-wrapper header .logo img {
         width: 100px;
-        margin-top: 2.5px;
+        margin-top: 2px;
     }
     .menu-wrapper header .logo label {
         font-size: 10px;
+        padding-left:15px;
     }
     .menu-wrapper header nav {
         float: left;
