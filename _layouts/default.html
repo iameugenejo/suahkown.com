@@ -35,11 +35,11 @@
       <div class="container">
         <div class="navbar-header">
           <!-- hamburger button -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+          <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
-          </button>
+          </button> -->
           <!-- Navbar brand -->
           <a class="navbar-brand logo" href="{{ site.baseurl }}/">
             <img src="{{ site.baseurl }}/images/logo.png" alt="">
@@ -49,15 +49,12 @@
         <!-- Menu -->
         <div class="navbar" id="menu">
           <ul class="nav navbar-nav">
-            <li class="{% if page.menu == "main" %}active{% endif %} nav-item">
-              <a class="nav-link" href="{{ site.baseurl }}/">portfolio</a>
-            </li>
             <li class="{% if page.menu == "about" %}active{% endif %} nav-item">
               <a class="nav-link" href="{{ site.baseurl }}/about.html">about</a>
             </li>
             <li class="{% if page.menu == "contact" %}active{% endif %} nav-item">
               <a class="nav-link" href="https://www.linkedin.com/in/suahkwon/">
-                <img src="{{ site.baseurl }}/images/linkedin.png" title="linkedin" style="padding-bottom:3px">
+                <img src="{{ site.baseurl }}/images/linkedin.png" class="social" title="linkedin">
               </a>
             </li>
           </ul>
