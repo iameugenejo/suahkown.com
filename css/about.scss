@@ -15,8 +15,8 @@ label.hello {
 }
 
 p {
-  font-size: 25px;
-  line-height: 32px;
+  font-size: 21px;
+  line-height: 28px;
   padding-bottom: 10px;
 }
 
@@ -33,15 +33,5 @@ p {
 }
 
 .footer {
-  position: absolute;
-  bottom: 15px;
-  margin-left: auto;
-  width: 100%;
-  margin-right: auto;
-}
-
-@media (max-height:500px) {
-  .footer {
-    display: none;
-  }
+  display: none;
 }

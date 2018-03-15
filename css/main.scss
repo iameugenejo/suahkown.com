@@ -65,7 +65,7 @@ ul {
 }
 
 .small-section {
-    padding: 44px 0
+    padding-top: 44px;
 }
 
 .item {
@@ -168,6 +168,10 @@ ul {
 
 .portfolio-image {
     margin-bottom: 15px;
+}
+
+.portfolio-image:last-of-type {
+    margin-bottom: 0px;
 }
 
 .full-width {
@@ -425,7 +429,7 @@ ul {
 
 .menu-wrapper {
     font-family: Montserrat-Bold;
-    height: 115px;
+    height: 85px;
     margin-top: 50px;
     background-color: unset;
     border: none;
@@ -487,6 +491,11 @@ ul {
         }
     }
 
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 /*----------------------*/
