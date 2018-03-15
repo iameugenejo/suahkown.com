@@ -453,7 +453,6 @@ ul {
             color: inherit;
         }
         img {
-            max-width: 95%;
             width: 150px;
             vertical-align: middle;
             float: left;
@@ -524,6 +523,15 @@ ul {
             label {
                 font-size: 10px;
                 padding-left:15px;
+            }
+        }
+    }
+}
+@media (max-width:400px) {
+    .menu-wrapper {
+        .logo {
+            label {
+                display: none;
             }
         }
     }
