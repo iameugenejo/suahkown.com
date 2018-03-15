@@ -22,7 +22,7 @@ $arrow_margin: -18px;
           height: 0; 
           border-top: $arrow_size solid transparent;
           border-bottom: $arrow_size solid transparent; 
-          border-right:$arrow_size solid #f4f4f4; 
+          border-right:$arrow_size solid #eaeaea; 
         }
         
         &:hover .img {
@@ -38,7 +38,7 @@ $arrow_margin: -18px;
           height: 0; 
           border-top: $arrow_size solid transparent;
           border-bottom: $arrow_size solid transparent;
-          border-left: $arrow_size solid #f4f4f4;
+          border-left: $arrow_size solid #eaeaea;
         }
 
         &:hover .img {
