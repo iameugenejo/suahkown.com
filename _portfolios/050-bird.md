@@ -1,7 +1,7 @@
 ---
 featured: true
 title: BIRD Promotional Design
-thumb: bird/FieldGuide_1.jpg
+thumb: bird/FieldGuide_thumb.jpg
 images:
   - bird/FieldGuide_1.jpg
   - bird/FieldGuide_2.jpg

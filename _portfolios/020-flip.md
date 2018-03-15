@@ -1,7 +1,7 @@
 ---
 featured: true
 title: Do You Flip? Campaign
-thumb: flip/FLIP_1.jpg
+thumb: flip/FLIP_thumb.jpg
 images:
   - flip/FLIP_1.jpg
   - flip/FLIP_2.jpg

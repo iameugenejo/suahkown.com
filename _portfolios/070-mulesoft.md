@@ -1,7 +1,7 @@
 ---
 featured: true
 title: Mulesoft Campaign Concept
-thumb: mulesoft/Mulesoft1.jpg
+thumb: mulesoft/Mulesoft_thumb.jpg
 images:
   - mulesoft/Mulesoft1.jpg
   - mulesoft/Mulesoft2.jpg

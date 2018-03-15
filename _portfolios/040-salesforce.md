@@ -1,7 +1,7 @@
 ---
 featured: true
 title: Desk.com Testimonial Campaign
-thumb: salesforce/Desk1.jpg
+thumb: salesforce/Desk_thumb.jpg
 images:
   - salesforce/Desk1.jpg
   - salesforce/Desk2.jpg

@@ -1,7 +1,7 @@
 ---
 featured: true
 title: Business Builders Campaign
-thumb: avery/Avery1.jpg
+thumb: avery/Avery_thumb.jpg
 images:
   - avery/Avery1.jpg
   - avery/Avery2.jpg
