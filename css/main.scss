@@ -439,8 +439,8 @@ ul {
     font-family: Playfair Display;
     font-weight: normal;
     letter-spacing: 0;
-    height: 245px;
-    margin-top: 115px;
+    height: 230px;
+    margin-top: 100px;
     background-color: unset;
     border: none;
     .navbar-brand {
@@ -458,6 +458,7 @@ ul {
     .logo {
         float: left;
         line-height: 75px;
+        text-decoration: none;
         a {
             text-decoration: none;
             color: inherit;
@@ -473,7 +474,7 @@ ul {
         }
         .stripe {
             display: inline-block;
-            
+            vertical-align: top;
             label {
                 font-weight: unset;
                 cursor: pointer;
