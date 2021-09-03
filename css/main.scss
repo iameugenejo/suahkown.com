@@ -19,12 +19,12 @@ ul {
 }
 
 body {
-    font-family: Montserrat-Light, Roboto, sans-serif;
-    font-weight: 400;
+    font-family: Public Sans, Roboto, sans-serif;
+    font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     background-color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 25px;
     letter-spacing: -0.25px;
 }
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat-Bold, Lato, sans-serif
+    font-family: Playfair Display, Lato, sans-serif
 }
 
 ul {
@@ -275,7 +275,7 @@ ul {
     p {
         margin-bottom: 0;
         padding-top: 15px;
-        font-size: 10px;
+        font-size: 14px;
         a {
             color: #000;
         }
@@ -315,14 +315,18 @@ ul {
 }
 
 .page-title h1 {
-    letter-spacing: -0.2px;
-    font-size: 27px;
+    letter-spacing: 0px;
+    font-size: 43px;
     margin-top: 0;
 }
 
+.page-title .row:first-child {
+    margin-bottom: 6px;
+}
+
 .page-title .detail>div {
-    line-height: 18px;
-    letter-spacing: 0.7px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
 }
 
 .copyright p a:hover,
@@ -336,7 +340,10 @@ ul {
 }
 
 .f-bold {
-    font-family: Montserrat-Bold;
+    font-family: Public Sans;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.5px;
 }
 
 .virtical-center-container {
@@ -369,15 +376,16 @@ ul {
 
     ul li {
         display: inline-block;
-        margin-left: -10px;
+        margin-left: -16px;
         position: relative;
-        font-family: Montserrat-Bold;
+        font-family: Public Sans;
+
         a {
             color: #000;
-            font-size: 12px;
+            font-size: 14px;
             text-transform: uppercase;
-            letter-spacing: 0.75px;
-            font-weight: 500;
+            letter-spacing: 0.5px;
+            font-weight: 800;
             text-decoration: none;
             padding-bottom: 2px
         }
@@ -385,7 +393,7 @@ ul {
             margin-left: 0
         }
         .social {
-            width: 12px;
+            width: 20px;
             padding-bottom:3px
         }
     }
@@ -428,9 +436,11 @@ ul {
 }
 
 .menu-wrapper {
-    font-family: Montserrat-Bold;
-    height: 85px;
-    margin-top: 50px;
+    font-family: Playfair Display;
+    font-weight: normal;
+    letter-spacing: 0;
+    height: 245px;
+    margin-top: 115px;
     background-color: unset;
     border: none;
     .navbar-brand {
@@ -452,25 +462,30 @@ ul {
             text-decoration: none;
             color: inherit;
         }
-        img {
-            width: 150px;
-            vertical-align: middle;
-            float: left;
-            margin-top: -3.5px;
+        .img {
+            display: inline-block;
+            
+            img {
+                vertical-align: middle;
+                float: left;
+                margin-top: -17.5px;
+            }
         }
-
-        label {
-            cursor: pointer;
-            vertical-align: middle;
-            text-transform: uppercase;
-            line-height: 23px;
-            height: 23px;
-            float: left;
-            font-size: 12px;
-            padding-top: 2px;
-            padding-left: 21px;
-            letter-spacing: 0.75px;
-        }        
+        .stripe {
+            display: inline-block;
+            
+            label {
+                font-weight: unset;
+                cursor: pointer;
+                vertical-align: middle;
+                line-height: 23px;
+                height: 23px;
+                float: left;
+                font-size: 22px;
+                padding-top: 2px;
+                padding-left: 21px;
+            }        
+        }
     }
     
 
@@ -493,45 +508,37 @@ ul {
 }
 
 .footer {
-    padding-top: 15px;
+    padding-top: 40px;
     padding-bottom: 30px;
 }
 
 /*----------------------*/
 @media (max-width:767px) {
-    body {
-      font-size: 11px;
-    }
     #menu {
         // display: none;
         margin-right: unset;
         top: 24px;
-        ul li a {
-            font-size: 10px;
-        }
     }
     .menu-wrapper {
         margin-top: 0;
+        height: 300px;
         .logo {
             position: absolute;
             top: 27px;
             line-height: 0;
-            img {
-                width: 100px;
-                margin-top: 2px;
+            .img {
+                display: block;
+                img {
+                    // width: 100px;
+                    margin-top: 2px;
+                }
             }
-            label {
-                font-size: 10px;
-                padding-left:15px;
-            }
-        }
-    }
-}
-@media (max-width:400px) {
-    .menu-wrapper {
-        .logo {
-            label {
-                display: none;
+            .stripe {
+                display: block;
+                label {
+                    padding-top: 20px;
+                    padding-left: 0px;
+                }
             }
         }
     }

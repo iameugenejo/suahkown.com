@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Do You Flip? Campaign
+title: Do You Flip? ad campaign
 thumb: flip/FLIP_thumb.jpg
 images:
   - flip/FLIP_1.jpg
@@ -11,4 +11,5 @@ images:
 client: Cisco FLIP
 agency: BIRD Los Angeles
 role: Senior Designer – ad design, print / OOH ad executions & productions, online banner ads & landing page designs
+award: Bronze Addy National Award 2011 - Online Advertising
 ---

@@ -6,6 +6,16 @@ body {
   padding-bottom: 15px;
 }
 
+.about {
+  font-family: Playfair Display;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: underline;
+  color: #000 !important;
+}
+
 label.hello {
   padding-top: 80px;
   font-family: Montserrat-Bold;
@@ -15,9 +25,10 @@ label.hello {
 }
 
 p {
-  font-size: 21px;
-  line-height: 28px;
-  padding-bottom: 10px;
+  font-size: 38px;
+  line-height: 45px;
+  letter-spacing: 0.2px;
+  padding-bottom: 28px;
 }
 
 .mailto {
@@ -27,11 +38,7 @@ p {
   }
 }
 
-.hello {
-  width: 17vw;
-  padding-bottom: 58px;
-}
 
 .footer {
-  display: none;
+  padding-top: 100px;
 }

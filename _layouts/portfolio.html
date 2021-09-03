@@ -26,6 +26,12 @@ scripts:
           <div class="col-xs-3 col-sm-2 col-md-1 f-bold">ROLE</div>
           <div class="col-xs-9 col-sm-10 col-md-11">{{ page.role }}</div>
         </div>
+        {% if page.award %}
+        <div class="row detail">
+          <div class="col-xs-3 col-sm-2 col-md-1 f-bold">AWARD</div>
+          <div class="col-xs-9 col-sm-10 col-md-11">{{ page.award }}</div>
+        </div>
+        {% endif %}
       </div>
     </div>
 
