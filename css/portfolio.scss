@@ -84,7 +84,7 @@ $arrow_margin: -30px;
           }
 
           &:hover .img {
-            border-right: $mobile_arrow_size solid $theme_color; 
+            border-left: $mobile_arrow_size solid $theme_color; 
           }
         }
       }
