@@ -1,6 +1,6 @@
 ---
 featured: true
-title: PANCAN
+title: PanCAN homepage revamp
 thumb: pancan/Pancan_thumb.png
 styles:
   - portfolio2021.css
@@ -10,7 +10,7 @@ images:
   - pancan/Pancan3.png
   - pancan/Pancan4.png
   - pancan/Pancan5.png
-client: PANCAN
-agency: PANCAN
-role: Associate Creative Director – ad design, print / OOH ad executions & productions, online banner ads & landing page designs
+client: Pancreatic Cancer Action Network
+agency: Pancreatic Cancer Action Network
+role: Associate Creative Director/Designer – UI design (research, wireframing, creative direction & prototyping)
 ---

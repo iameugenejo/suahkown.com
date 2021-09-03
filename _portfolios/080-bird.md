@@ -1,6 +1,6 @@
 ---
 featured: true
-title: BIRD Promotional Design
+title: BIRD promotional booklet
 thumb: bird/FieldGuide_thumb.jpg
 images:
   - bird/FieldGuide_1.jpg
@@ -10,4 +10,5 @@ images:
 client: BIRD Los Angeles
 agency: BIRD Los Angeles
 role: Lead Designer – concept development, editorial design & image manipulation/retouching
+award: HOW Design Awards 2012 & Gold ADDY Los Angeles Award 2012 – Promotional Design
 ---

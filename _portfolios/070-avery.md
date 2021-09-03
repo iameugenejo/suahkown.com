@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Business Builders Campaign
+title: Avery Business Builders campaign
 thumb: avery/Avery_thumb.jpg
 images:
   - avery/Avery1.jpg
@@ -8,5 +8,6 @@ images:
   - avery/Avery3.jpg
 client: Avery
 agency: BIRD Los Angeles
-role: Art Director/Lead Designer – concept development, headline copy, execution & production
+role: Lead Designer – concept development, headline copy, ad design executions & production
+award: Bronze Addy Los Angeles Award 2014 – Digital Advertising
 ---

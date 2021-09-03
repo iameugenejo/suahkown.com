@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Desk.com Testimonial Campaign
+title: Desk.com ad campaign & booklet design
 thumb: salesforce/Desk_thumb.jpg
 images:
   - salesforce/Desk1.jpg
@@ -10,5 +10,5 @@ images:
   - salesforce/Desk5.jpg
 client: Salesforce Desk
 agency: BIRD Los Angeles
-role: Art Director – design execution, online banner ads, editorial designs, print / OOH ad designs & production management
+role: Lead Designer – design concept development and executions for online banners, print, OOH ads & editorial designs
 ---

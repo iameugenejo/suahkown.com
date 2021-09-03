@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Alliance Website
+title: Alliance website revamp
 thumb: alliance/Alliance_thumb.jpg
 images:
   - alliance/Alliance1.jpg
@@ -9,6 +9,6 @@ images:
   - alliance/Alliance4.jpg
 client: Alliance Shippers Inc.
 agency: Uncaged LA
-role: Creative Director - design concepts & executions
+role: Creative Director/Designer – UI design (design concepts, executions)
 ---
 

@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Brand Refresh & Merchandise Guide
+title: Tetris brand refresh & merchandise guide
 thumb: tetris/Tetris_thumb.jpg
 images:
   - tetris/Tetris1.jpg

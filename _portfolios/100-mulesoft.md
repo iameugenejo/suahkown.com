@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Mulesoft Campaign Concept
+title: Mulesoft campaign concept
 thumb: mulesoft/Mulesoft_thumb.jpg
 images:
   - mulesoft/Mulesoft1.jpg
@@ -9,5 +9,5 @@ images:
   - mulesoft/Mulesoft4.jpg
 client: MuleSoft
 agency: BIRD Los Angeles
-role: Art Director/Lead Designer – concept development & execution
+role: Lead Designer – concept development & executions
 ---

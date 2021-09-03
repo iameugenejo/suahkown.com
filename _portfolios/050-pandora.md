@@ -1,6 +1,6 @@
 ---
 featured: true
-title: Brand Identity & Manifesto
+title: Pandora rebrand & manifesto
 thumb: pandora/pandora_thumb.jpg
 images:
   - pandora/pandora1.jpg
