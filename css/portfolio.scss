@@ -3,6 +3,7 @@
 
 $theme_color: #000;
 $arrow_size: 20px;
+$mobile_arrow_size: 16px;
 $arrow_margin: -30px;
 
 .navigator {
@@ -25,7 +26,7 @@ $arrow_margin: -30px;
           height: 0; 
           border-top: $arrow_size solid transparent;
           border-bottom: $arrow_size solid transparent; 
-          border-right:$arrow_size solid #eaeaea; 
+          border-right: $arrow_size solid #eaeaea; 
         }
         
         &:hover .img {
@@ -64,9 +65,27 @@ $arrow_margin: -30px;
         display: inline-block;
         &.left-arrow {
           margin-left: 0px;
+          .img {
+            border-top: $mobile_arrow_size solid transparent;
+            border-bottom: $mobile_arrow_size solid transparent; 
+            border-right: $mobile_arrow_size solid #000; 
+          }
+
+          &:hover .img {
+            border-right: $mobile_arrow_size solid $theme_color; 
+          }
         }
         &.right-arrow {
           margin-right: 0px;
+          .img {
+            border-top: $mobile_arrow_size solid transparent;
+            border-bottom: $mobile_arrow_size solid transparent;
+            border-left: $mobile_arrow_size solid #000;
+          }
+
+          &:hover .img {
+            border-right: $mobile_arrow_size solid $theme_color; 
+          }
         }
       }
 
