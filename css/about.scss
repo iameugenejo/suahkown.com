@@ -42,3 +42,11 @@ p {
 .footer {
   padding-top: 100px;
 }
+
+/*----------------------*/
+@media (max-width:767px) {
+  p {
+    font-size: 35px;
+    line-height: 43px;
+  }
+}
