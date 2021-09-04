@@ -459,9 +459,13 @@ ul {
         float: left;
         line-height: 75px;
         text-decoration: none;
+        &:hover, &:active, &:visited {
+            color: #000 !important;
+        }
         a {
             text-decoration: none;
             color: inherit;
+        
         }
         .img {
             display: inline-block;
