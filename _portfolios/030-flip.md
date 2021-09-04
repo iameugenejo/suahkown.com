@@ -11,5 +11,5 @@ images:
 client: Cisco Flip
 agency: BIRD Los Angeles
 role: Senior Designer – print, digital, OOH ad executions & productions, landing page designs
-award: Bronze Addy National Award 2011 - Online Advertising
+award: Bronze Addy National Award 2011 – Online Advertising
 ---
