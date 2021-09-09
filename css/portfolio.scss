@@ -108,8 +108,8 @@ $arrow_margin: -30px;
 .portfolio-detail {
   font-family: Playfair Display;
   font-weight: normal;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   p {
     font-size: 20px;
     line-height: 29px;
@@ -117,6 +117,9 @@ $arrow_margin: -30px;
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
+    &:last-child {
+      padding-bottom: 0px;
+    }
   }
 }
 
